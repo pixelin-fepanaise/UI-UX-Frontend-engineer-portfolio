@@ -1,0 +1,1279 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfolio – UI/UX Designer &amp; Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Fonts -->
+
+    <style>
+      .font-geist {
+        font-family: "Geist", sans-serif !important;
+      }
+    </style>
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style>
+      .font-roboto {
+        font-family: "Roboto", sans-serif !important;
+      }
+    </style>
+
+    <style>
+      .font-jakarta {
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+      }
+    </style>
+
+    <style>
+      /* small custom tweaks to ensure consistent gallery card aspect and reduce extra whitespace */
+      .project-thumb {
+        aspect-ratio: 16/10;
+        object-fit: cover;
+        width: 100%;
+        display: block;
+        border-radius: 0.5rem;
+      }
+      /* Prevent overly tall page padding across breakpoints */
+      .page-shell {
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-montserrat"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-montserrat">
+      .font-montserrat {
+        font-family: "Montserrat", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-poppins"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-poppins">
+      .font-poppins {
+        font-family: "Poppins", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-playfair"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;900&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-playfair">
+      .font-playfair {
+        font-family: "Playfair Display", serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-instrument-serif"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:wght@400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-instrument-serif">
+      .font-instrument-serif {
+        font-family: "Instrument Serif", serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-merriweather"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-merriweather">
+      .font-merriweather {
+        font-family: "Merriweather", serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-bricolage"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-bricolage">
+      .font-bricolage {
+        font-family: "Bricolage Grotesque", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-jakarta"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-jakarta">
+      .font-jakarta {
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-manrope"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-manrope">
+      .font-manrope {
+        font-family: "Manrope", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-space-grotesk"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-space-grotesk">
+      .font-space-grotesk {
+        font-family: "Space Grotesk", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-work-sans"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-work-sans">
+      .font-work-sans {
+        font-family: "Work Sans", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-pt-serif"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-pt-serif">
+      .font-pt-serif {
+        font-family: "PT Serif", serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-geist-mono"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-geist-mono">
+      .font-geist-mono {
+        font-family: "Geist Mono", monospace !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-space-mono"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-space-mono">
+      .font-space-mono {
+        font-family: "Space Mono", monospace !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-quicksand"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-quicksand">
+      .font-quicksand {
+        font-family: "Quicksand", sans-serif !important;
+      }
+    </style>
+    <link
+      id="all-fonts-link-font-nunito"
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&amp;display=swap"
+    />
+    <style id="all-fonts-style-font-nunito">
+      .font-nunito {
+        font-family: "Nunito", sans-serif !important;
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen bg-slate-950 text-slate-100 antialiased flex flex-col"
+  >
+    <div class="flex-1">
+      <!-- Page Shell (reduced/consistent padding to avoid extra whitespace) -->
+      <div
+        class="sm:px-6 lg:px-8 page-shell max-w-6xl mr-auto ml-auto pr-4 pl-4"
+      >
+        <!-- Header / Nav -->
+        <header
+          class="flex items-center justify-between gap-4 mb-8 sm:mb-10 lg:mb-12"
+        >
+          <div class="flex items-center gap-3">
+            <div
+              class="rounded-full bg-slate-900/80 border border-slate-800 h-9 w-9 flex items-center justify-center"
+            >
+              <span class="text-xs font-semibold tracking-tight">HJ</span>
+            </div>
+            <div class="flex flex-col">
+              <span
+                class="text-sm sm:text-base font-semibold tracking-tight leading-tight"
+              >
+                UI/UX Designer &amp; Frontend Engineer
+              </span>
+              <span class="text-xs sm:text-sm text-slate-400 leading-tight">
+                Crafting interfaces that balance aesthetics, usability, and
+                performance.
+              </span>
+            </div>
+          </div>
+
+          <nav class="hidden sm:flex items-center gap-6 text-sm">
+            <a
+              href="#experience"
+              class="text-slate-300 hover:text-slate-50 transition-colors"
+              >Experience</a
+            >
+            <a
+              href="#projects-gallery"
+              class="text-slate-300 hover:text-slate-50 transition-colors"
+              >Projects</a
+            >
+            <a
+              href="#skills"
+              class="text-slate-300 hover:text-slate-50 transition-colors"
+              >Skills</a
+            >
+          </nav>
+
+          <div class="flex items-center gap-3">
+            <a
+              href="#contact"
+              class="hidden sm:inline-flex items-center justify-center rounded-full border border-slate-700/80 bg-slate-900/70 text-xs sm:text-sm font-medium tracking-tight px-3.5 py-1.5 hover:bg-slate-800 transition-colors"
+            >
+              Let’s collaborate
+            </a>
+            <button
+              class="inline-flex sm:hidden items-center justify-center rounded-full border border-slate-800 bg-slate-900/80 h-9 w-9 hover:bg-slate-800 transition-colors"
+              aria-label="Open navigation"
+            >
+              <!-- Replaced with lucide menu -->
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                data-lucide="menu"
+                class="lucide lucide-menu w-4 h-4"
+              >
+                <path d="M4 5h16"></path>
+                <path d="M4 12h16"></path>
+                <path d="M4 19h16"></path>
+              </svg>
+            </button>
+          </div>
+        </header>
+
+        <!-- Hero -->
+        <section class="mb-20 lg:mb-24 w-full">
+          <div class="space-y-5">
+            <div
+              class="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 text-emerald-300/90 text-xs font-medium tracking-tight px-3 py-1"
+            >
+              <span class="relative flex h-1.5 w-1.5">
+                <span
+                  class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-60"
+                ></span>
+                <span
+                  class="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400"
+                ></span>
+              </span>
+              <span>Available for product design &amp; frontend roles</span>
+            </div>
+
+            <div class="space-y-3">
+              <h1
+                class="text-3xl sm:text-4xl lg:text-5xl font-semibold tracking-tight leading-tight text-slate-50"
+              >
+                Designing thoughtful interfaces.<br
+                  class="hidden sm:block"
+                />Building them for the web.
+              </h1>
+              <p class="text-base sm:text-lg text-slate-300 leading-relaxed">
+                UI/UX engineer with experience across product design,
+                interaction design, and frontend development. I help teams turn
+                complex requirements into clear, intuitive experiences—and ship
+                them with clean, scalable code.
+              </p>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 pt-1">
+              <div
+                class="flex items-center gap-2 text-xs sm:text-sm text-slate-400"
+              >
+                <!-- Replaced with lucide layout-panel-left (device / layout metaphor) -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-lucide="layout-panel-left"
+                  class="lucide lucide-layout-panel-left w-3.5 h-3.5"
+                >
+                  <rect width="7" height="18" x="3" y="3" rx="1"></rect>
+                  <rect width="7" height="7" x="14" y="3" rx="1"></rect>
+                  <rect width="7" height="7" x="14" y="14" rx="1"></rect>
+                </svg>
+                <span>UI/UX · Design systems · Prototyping</span>
+              </div>
+              <div
+                class="flex items-center gap-2 text-xs sm:text-sm text-slate-400"
+              >
+                <!-- Replaced with lucide code-2 -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-lucide="code-2"
+                  class="lucide lucide-code-2 w-3.5 h-3.5"
+                >
+                  <path d="m18 16 4-4-4-4"></path>
+                  <path d="m6 8-4 4 4 4"></path>
+                  <path d="m14.5 4-5 16"></path>
+                </svg>
+                <span>HTML · CSS · JavaScript · React</span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Main Content -->
+        <main
+          class="grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,0.95fr)] lg:gap-10 gap-x-8 gap-y-8 items-start"
+        >
+          <!-- Column 1: Experience + Projects (projects + gallery are side-by-side full width) -->
+          <div class="space-y-10 lg:space-y-12 w-full">
+            <!-- Experience -->
+            <section id="experience" class="space-y-5">
+              <div class="flex items-center justify-between gap-3">
+                <h2
+                  class="text-xl sm:text-2xl font-semibold tracking-tight text-slate-50"
+                >
+                  Professional experience
+                </h2>
+                <span class="text-xs sm:text-sm text-slate-400"
+                  >4+ years across design, product, and growth</span
+                >
+              </div>
+
+              <div class="space-y-4">
+                <!-- Experience articles (unchanged) -->
+                <article
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5"
+                >
+                  <div
+                    class="flex flex-wrap items-start justify-between gap-3 mb-2"
+                  >
+                    <div>
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        UI/UX Engineer · Mibo
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Product UI, interaction design, and experience
+                        refinement
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-slate-400"
+                      >Present</span
+                    >
+                  </div>
+                  <p
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed"
+                  >
+                    Crafting cohesive user interfaces and experiences across the
+                    product—shaping design systems, interaction patterns, and
+                    flows that support both usability and brand.
+                  </p>
+                </article>
+
+                <article
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5"
+                >
+                  <div
+                    class="flex flex-wrap items-start justify-between gap-3 mb-2"
+                  >
+                    <div>
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        UI/UX Engineer · Freelance
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Independent designer &amp; front-end collaborator
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-slate-400"
+                      >Jan 2023 — Jan 2025</span
+                    >
+                  </div>
+                  <ul
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed space-y-1.5 list-disc list-inside"
+                  >
+                    <li class="">
+                      Partnered with businesses and individuals to elevate their
+                      digital presence, focusing on usability, clarity, and
+                      measurable business value.
+                    </li>
+                    <li class="">
+                      Designed and refined end-to-end experiences—from research
+                      and flows to high-fidelity interfaces and interactive
+                      prototypes.
+                    </li>
+                    <li>
+                      Consulted with multiple firms to align UX strategy with
+                      product and business goals, improving engagement and
+                      conversion metrics.
+                    </li>
+                  </ul>
+                </article>
+
+                <article
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5"
+                >
+                  <div
+                    class="flex flex-wrap items-start justify-between gap-3 mb-2"
+                  >
+                    <div class="">
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        Digital Marketing Executive · QBS Enterprises
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Campaigns, workflows, and cross-functional collaboration
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-slate-400"
+                      >Jul 2021 — Nov 2022</span
+                    >
+                  </div>
+                  <ul
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed space-y-1.5 list-disc list-inside"
+                  >
+                    <li>
+                      Collaborated with businesses across domains to establish
+                      and grow their digital presence.
+                    </li>
+                    <li>
+                      Generated campaign ideas, coordinated execution, and
+                      managed workflows across multiple teams.
+                    </li>
+                    <li>
+                      Gained a strong understanding of how UX, content, and
+                      growth strategies intersect.
+                    </li>
+                  </ul>
+                </article>
+
+                <article
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5"
+                >
+                  <div
+                    class="flex flex-wrap items-start justify-between gap-3 mb-2"
+                  >
+                    <div>
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        Graphic Design Intern · AskAviArya
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Visual design &amp; brand assets
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-slate-400"
+                      >Feb 2021 — May 2021</span
+                    >
+                  </div>
+                  <p
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed"
+                  >
+                    Supported campaigns with visuals and creative assets,
+                    building a foundation in composition, typography, and visual
+                    hierarchy that translates into product design.
+                  </p>
+                </article>
+              </div>
+            </section>
+
+            <!-- Projects + Gallery Side-by-Side (full width) -->
+          </div>
+
+          <!-- Column 2: Right column with Highlight Card (already moved), Skills, Timeline, Contact at bottom -->
+          <aside class="lg:space-y-10 space-y-8">
+            <!-- Highlight card -->
+            <div class="relative">
+              <div
+                class="absolute inset-0 -z-10 bg-gradient-to-tr from-emerald-500/15 via-sky-500/5 to-transparent blur-3xl opacity-60"
+              ></div>
+              <div
+                class="rounded-3xl border border-slate-800 bg-slate-900/80 backdrop-blur overflow-hidden"
+              >
+                <div
+                  class="border-b border-slate-800/80 px-4 sm:px-5 py-3 flex items-center justify-between"
+                >
+                  <div class="flex items-center gap-2">
+                    <span
+                      class="h-2.5 w-2.5 rounded-full bg-emerald-400/90"
+                    ></span>
+                    <span
+                      class="text-xs font-medium tracking-tight text-slate-200"
+                      >Product snapshot</span
+                    >
+                  </div>
+                  <span class="text-[0.7rem] text-slate-500"
+                    >UI · UX · Dev</span
+                  >
+                </div>
+                <div class="p-4 sm:p-5 space-y-4">
+                  <div class="flex items-center justify-between gap-4">
+                    <div class="space-y-1">
+                      <p
+                        class="text-sm font-semibold tracking-tight text-slate-50"
+                      >
+                        UI/UX Engineer · Hybrid profile
+                      </p>
+                      <p class="text-sm text-slate-400 leading-relaxed">
+                        Bridging product, design, and engineering to ship
+                        user-centered experiences that are accessible, scalable,
+                        and visually coherent.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="grid grid-cols-2 gap-3 text-xs sm:text-sm">
+                    <div
+                      class="rounded-2xl border border-slate-800 bg-slate-900/80 p-3 flex flex-col gap-1.5"
+                    >
+                      <div class="flex items-center gap-2 text-slate-300">
+                        <!-- Replaced with lucide layout-dashboard -->
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          data-lucide="layout-dashboard"
+                          class="lucide lucide-layout-dashboard w-3.5 h-3.5"
+                        >
+                          <rect width="7" height="9" x="3" y="3" rx="1"></rect>
+                          <rect width="7" height="5" x="14" y="3" rx="1"></rect>
+                          <rect
+                            width="7"
+                            height="9"
+                            x="14"
+                            y="12"
+                            rx="1"
+                          ></rect>
+                          <rect width="7" height="5" x="3" y="16" rx="1"></rect>
+                        </svg>
+                        <span class="font-medium tracking-tight">UX focus</span>
+                      </div>
+                      <ul
+                        class="text-slate-400 leading-snug list-disc list-inside space-y-0.5"
+                      >
+                        <li>Wireframing &amp; flows</li>
+                        <li>Interaction design</li>
+                        <li>Design systems</li>
+                      </ul>
+                    </div>
+                    <div
+                      class="rounded-2xl border border-slate-800 bg-slate-900/80 p-3 flex flex-col gap-1.5"
+                    >
+                      <div class="flex items-center gap-2 text-slate-300">
+                        <!-- Replaced with lucide terminal-square -->
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          data-lucide="terminal-square"
+                          class="lucide lucide-terminal-square w-3.5 h-3.5"
+                        >
+                          <path d="m7 11 2-2-2-2"></path>
+                          <path d="M11 13h4"></path>
+                          <rect
+                            width="18"
+                            height="18"
+                            x="3"
+                            y="3"
+                            rx="2"
+                            ry="2"
+                          ></rect>
+                        </svg>
+                        <span class="font-medium tracking-tight"
+                          >Dev toolkit</span
+                        >
+                      </div>
+                      <ul
+                        class="text-slate-400 leading-snug list-disc list-inside space-y-0.5"
+                      >
+                        <li>HTML, CSS, JS</li>
+                        <li>React interfaces</li>
+                        <li>Data visuals (D3.js)</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div
+                    class="rounded-2xl border border-slate-800 bg-gradient-to-r from-emerald-500/10 via-slate-900 to-slate-900 p-3.5 flex flex-col gap-1.5"
+                  >
+                    <div class="flex items-center justify-between">
+                      <span
+                        class="text-xs font-medium tracking-tight text-emerald-300"
+                        >Recent highlight</span
+                      >
+                      <span class="text-[0.7rem] text-slate-400"
+                        >2023 — 2025</span
+                      >
+                    </div>
+                    <p class="text-sm text-slate-200 leading-snug">
+                      Independent UI/UX engineer for multiple businesses,
+                      improving engagement, research workflows, and complex
+                      product experiences.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Skills -->
+            <section id="skills" class="space-y-4">
+              <div class="flex items-center justify-between gap-3">
+                <h2 class="text-xl font-semibold tracking-tight text-slate-50">
+                  Skills &amp; toolkit
+                </h2>
+              </div>
+
+              <div class="space-y-3">
+                <div
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4"
+                >
+                  <h3
+                    class="text-xs sm:text-sm font-semibold tracking-tight text-slate-100 mb-2"
+                  >
+                    Product &amp; UX
+                  </h3>
+                  <ul
+                    class="text-sm text-slate-300 leading-relaxed space-y-1 list-disc list-inside"
+                  >
+                    <li>
+                      User interface design, responsive UI, and interaction
+                      design
+                    </li>
+                    <li>
+                      Wireframing, user flows, and information architecture
+                    </li>
+                    <li>User experience design, user research, and testing</li>
+                  </ul>
+                </div>
+
+                <div
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4"
+                >
+                  <h3
+                    class="text-xs sm:text-sm font-semibold tracking-tight text-slate-100 mb-2"
+                  >
+                    Tools &amp; platforms
+                  </h3>
+                  <ul
+                    class="text-sm text-slate-300 leading-relaxed space-y-1 list-disc list-inside"
+                  >
+                    <li>Rive · Spline · Blender</li>
+                    <li>Adobe Creative Cloud · Affinity suite</li>
+                    <li>Prototyping &amp; motion tools for interactive UI</li>
+                  </ul>
+                </div>
+
+                <div
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4"
+                >
+                  <div class="flex items-center justify-between mb-2">
+                    <h3
+                      class="text-xs sm:text-sm font-semibold tracking-tight text-slate-100"
+                    >
+                      Frontend development
+                    </h3>
+                    <span class="text-[0.7rem] text-emerald-300"
+                      >Design-to-code</span
+                    >
+                  </div>
+                  <ul
+                    class="text-sm text-slate-300 leading-relaxed space-y-1 list-disc list-inside"
+                  >
+                    <li>Semantic HTML, modern CSS, responsive layouts</li>
+                    <li>JavaScript fundamentals &amp; UI logic</li>
+                    <li>React-based interfaces</li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+
+            <!-- Timeline -->
+
+            <!-- Contact (Let’s work together) -->
+          </aside>
+        </main>
+        <section class="space-y-4 my-12">
+          <div class="flex gap-3 items-center justify-between">
+            <h2 class="text-xl font-semibold tracking-tight text-slate-50">
+              Timeline
+            </h2>
+          </div>
+          <div class="bg-slate-900/80 border-slate-800 border rounded-2xl p-4">
+            <ol
+              class="sm:text-sm text-xs text-slate-300 pl-4 relative space-y-3"
+            >
+              <li class="relative">
+                <span
+                  class="-left-1 bg-slate-500 w-2 h-2 rounded-full absolute top-1"
+                ></span>
+                <div class="flex gap-2 justify-between">
+                  <span class="font-medium text-slate-100 tracking-tight mx-2"
+                    >UI/UX Engineer · Mibo</span
+                  >
+                  <span class="text-slate-400">2025</span>
+                </div>
+              </li>
+              <li class="relative">
+                <span
+                  class="-left-1 bg-slate-500 w-2 h-2 rounded-full absolute top-1"
+                ></span>
+                <div class="flex justify-between gap-2">
+                  <span class="font-medium text-slate-100 tracking-tight mx-2"
+                    >UI/UX Engineer · Freelance</span
+                  >
+                  <span class="text-slate-400">2023 — 2025</span>
+                </div>
+              </li>
+              <li class="relative">
+                <span
+                  class="-left-1 bg-slate-500 w-2 h-2 rounded-full absolute top-1"
+                ></span>
+                <div class="flex justify-between gap-2">
+                  <span class="font-medium text-slate-100 tracking-tight mx-2"
+                    >Digital Marketing · QBS</span
+                  >
+                  <span class="text-slate-400">2021 — 2022</span>
+                </div>
+              </li>
+              <li class="relative">
+                <span
+                  class="absolute -left-1 top-1 h-2 w-2 rounded-full bg-slate-500"
+                ></span>
+                <div class="flex justify-between gap-2">
+                  <span class="font-medium text-slate-100 tracking-tight mx-2"
+                    >Design Intern · AskAviArya</span
+                  >
+                  <span class="text-slate-400">2021</span>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </section>
+        <section id="projects-gallery" class="w-full">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <!-- LEFT: Selected Projects -->
+            <div class="space-y-5">
+              <div class="flex items-center justify-between gap-3">
+                <h2
+                  class="text-xl sm:text-2xl font-semibold tracking-tight text-slate-50"
+                >
+                  Selected projects
+                </h2>
+                <span class="text-xs sm:text-sm text-slate-400"
+                  >UX-heavy work across web and product</span
+                >
+              </div>
+
+              <div class="space-y-4">
+                <!-- Existing project cards kept intact -->
+                <article
+                  class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5 space-y-2.5"
+                >
+                  <div class="flex flex-wrap items-start justify-between gap-3">
+                    <div class="">
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        Live Law · Nudgelab
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Design system &amp; research-focused experience for a
+                        leading judiciary platform
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-emerald-300"
+                      >UX · UI · Design system</span
+                    >
+                  </div>
+                  <p
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed"
+                  >
+                    Polished and extended the design system for a judiciary
+                    platform used by law students and practitioners. Designed an
+                    experience that supports prolonged research and study,
+                    emphasizing readability, focus, and navigation across dense
+                    information.
+                  </p>
+                </article>
+
+                <article
+                  class="sm:p-5 bg-slate-900/80 border-slate-800 border rounded-2xl space-y-3"
+                >
+                  <div class="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        Amazon · Caller Analytics Dashboards
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Interactive data visualization using D3.js
+                      </p>
+                    </div>
+                    <span class="sm:text-sm text-xs text-emerald-300"
+                      >UI/UX · Frontend · D3.js</span
+                    >
+                  </div>
+                  <p
+                    class="text-sm sm:text-base text-slate-300 leading-relaxed"
+                  >
+                    Developed interactive caller analytics dashboards that made
+                    complex datasets easy to explore. Designed sorting,
+                    grouping, and filtering interactions to simplify analysis,
+                    helping teams quickly identify patterns and insights.
+                  </p>
+                </article>
+
+                <article
+                  class="sm:p-5 bg-slate-900/80 border-slate-800 border rounded-2xl space-y-3"
+                >
+                  <div
+                    class="flex flex-wrap gap-3 gap-x-3 gap-y-3 items-start justify-between"
+                  >
+                    <div class="">
+                      <h3
+                        class="text-sm sm:text-base font-semibold tracking-tight text-slate-50"
+                      >
+                        Navymate · Sweet Convo · Editor’s Errand
+                      </h3>
+                      <p class="text-xs sm:text-sm text-slate-400">
+                        Product UI and UX for accommodation, social, and dating
+                        experiences
+                      </p>
+                    </div>
+                    <span class="text-xs sm:text-sm text-emerald-300"
+                      >End-to-end product UX</span
+                    >
+                  </div>
+                  <div
+                    class="grid sm:grid-cols-3 gap-3 text-sm sm:text-base text-slate-300 leading-relaxed"
+                  >
+                    <div
+                      class="rounded-2xl border border-slate-800/80 bg-slate-950/60 p-3.5"
+                    >
+                      <h4
+                        class="text-xs font-semibold tracking-tight text-slate-100 mb-1"
+                      >
+                        Navymate
+                      </h4>
+                      <p
+                        class="text-xs sm:text-sm text-slate-300 leading-relaxed"
+                      >
+                        Designed UI and UX for an accommodation app tailored to
+                        naval candidates, addressing location, safety, and
+                        logistical constraints.
+                      </p>
+                    </div>
+                    <div
+                      class="rounded-2xl border border-slate-800/80 bg-slate-950/60 p-3.5"
+                    >
+                      <h4
+                        class="text-xs font-semibold tracking-tight text-slate-100 mb-1"
+                      >
+                        Sweet Convo
+                      </h4>
+                      <p
+                        class="text-xs sm:text-sm text-slate-300 leading-relaxed"
+                      >
+                        Delivered UX-led design solutions for a social platform
+                        with complex interaction patterns and content states.
+                      </p>
+                    </div>
+                    <div
+                      class="rounded-2xl border border-slate-800/80 bg-slate-950/60 p-3.5"
+                    >
+                      <h4
+                        class="text-xs font-semibold tracking-tight text-slate-100 mb-1"
+                      >
+                        Editor’s Errand
+                      </h4>
+                      <p
+                        class="text-xs sm:text-sm text-slate-300 leading-relaxed"
+                      >
+                        Designed logo and dating app UI focused on modern
+                        relationship dynamics and safe, engaging conversations.
+                      </p>
+                    </div>
+                  </div>
+                </article>
+
+                <article
+                  class="sm:p-5 bg-slate-900/80 border-slate-800 border rounded-2xl space-y-2.5"
+                >
+                  <div class="flex flex-wrap items-start justify-between gap-3">
+                    <div>
+                      <h3
+                        class="sm:text-base text-sm font-semibold text-slate-50 tracking-tight"
+                      >
+                        PKV Marine
+                      </h3>
+                      <p class="sm:text-sm text-xs text-slate-400">
+                        Website for marine spares supplier
+                      </p>
+                    </div>
+                    <span class="sm:text-sm text-xs text-emerald-300"
+                      >HTML · CSS · Javascript</span
+                    >
+                  </div>
+                  <p
+                    class="sm:text-base leading-relaxed text-sm text-slate-300"
+                  >
+                    A clean, responsive website built for a marine spares
+                    supplier, designed to help customers easily browse parts and
+                    request quotes. The platform features intuitive navigation,
+                    fast performance, and a streamlined enquiry process tailored
+                    to the marine industry.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <!-- RIGHT: Project Gallery -->
+            <div class="space-y-5">
+              <div class="flex items-center justify-between">
+                <h2
+                  class="text-xl sm:text-2xl font-semibold tracking-tight text-slate-50"
+                >
+                  Project gallery
+                </h2>
+                <span class="text-xs sm:text-sm text-slate-400"
+                  >Visual previews &amp; case studies</span
+                >
+              </div>
+
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <!-- Gallery item 1 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Caller-graph.png"
+                    alt="Project 1 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Project — Caller Analytics
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      D3.js dashboards • interactive exploration
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Gallery item 2 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="livelaw.png"
+                    alt="Project 2 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Design System — Judiciary
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Typographic rhythm • readable long-form UI
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Gallery item 3 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="PKV.png"
+                    alt="Project 3 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      PKV Marine — Website
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Responsive e-commerce • streamlined enquiries
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Gallery item 4 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Navymate.png"
+                    alt="Project 4 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Navymate — Mobile UI
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Location-aware flows • accessibility first
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Gallery item 5 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Sweet convo.png"
+                    alt="Project 5 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Sweet Convo — Social UX
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Complex states • conversation flows
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Gallery item 6 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Editors errand web.png"
+                    alt="Project 6 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Editor’s Errand — Branding
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Logo &amp; product identity
+                    </p>
+                  </div>
+
+                  <!-- Gallery item 7 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Web design.png"
+                    alt="Project 6 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Editor’s Errand — Branding
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Logo &amp; product identity
+                    </p>
+                  </div>
+                </a>
+
+                  <!-- Gallery item 8 -->
+                <a
+                  href="#projects"
+                  class="group rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/80 p-0"
+                >
+                  <img
+                    class="project-thumb"
+                    src="Web designs.png"
+                    alt="Project 6 screenshot"
+                  />
+                  <div class="p-3">
+                    <h3 class="text-sm font-semibold text-slate-100">
+                      Editor’s Errand — Branding
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">
+                      Logo &amp; product identity
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="space-y-4 my-12" id="contact">
+          <div class="flex items-center justify-between gap-3">
+            <h2 class="text-xl font-semibold tracking-tight text-slate-50">
+              Let’s work together
+            </h2>
+          </div>
+          <div
+            class="rounded-2xl border border-slate-800 bg-slate-900/80 p-4 sm:p-5 space-y-3"
+          >
+            <p class="text-sm sm:text-base text-slate-300 leading-relaxed">
+              Open to roles as a UI/UX Designer, Product Designer, or
+              Frontend-focused UI Engineer. I’m especially interested in
+              products where UX quality directly impacts business outcomes.
+            </p>
+            <div class="space-y-2 text-sm sm:text-base">
+              <a
+                href="mailto:youremail@example.com"
+                class="inline-flex items-center gap-2 text-emerald-300 hover:text-emerald-200 transition-colors"
+              >
+                <!-- Replaced with lucide mail -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  data-lucide="mail"
+                  class="lucide lucide-mail w-3.5 h-3.5"
+                >
+                  <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                </svg>
+                <span class="">honeyjoseofficial@gmail.com</span>
+              </a>
+              <div
+                class="flex flex-wrap sm:text-sm text-xs text-slate-400 gap-x-0 gap-y-3 items-center"
+              >
+                <a
+                  href="https://www.linkedin.com/in/honey-jose-462984262/"
+                  class="inline-flex items-center gap-1.5 hover:text-slate-200 transition-colors mr-4"
+                >
+                  <!-- LinkedIn icon -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    data-lucide="linkedin"
+                    class="lucide lucide-linkedin w-3.5 h-3.5"
+                  >
+                    <path
+                      d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"
+                    ></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                  <span>LinkedIn</span>
+                </a>
+                <a
+                  href="https://github.com/pixelin-fepanaise"
+                  class="inline-flex items-center gap-1.5 hover:text-slate-200 transition-colors"
+                >
+                  <!-- GitHub icon -->
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    data-lucide="github"
+                    class="lucide lucide-github w-3.5 h-3.5"
+                  >
+                    <path
+                      d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"
+                    ></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                  <span>GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <footer class="border-t border-slate-900/80 bg-slate-950/90">
+      <div
+        class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-4 flex flex-wrap items-center justify-between gap-3"
+      >
+        <span class="sm:text-sm text-xs text-slate-500"
+          >© 2025 · Honey Jose · UI/UX Designer &amp; Frontend Engineer</span
+        >
+      </div>
+    </footer>
+
+    <script>
+      if (window.lucide) {
+        lucide.createIcons({ attrs: { "stroke-width": 1.5 } });
+      }
+    </script>
+  </body>
+</html>
